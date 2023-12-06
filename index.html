@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="portfolio.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c425e24a8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="#home"><b>HOME</b></a>
+            <a href="#about"><b>ABOUT</b></a>
+            <a href="#services"><b>SERVICES</b></a>
+            <a href="#portfolio"><b>PORTFOLIO</b></a>
+            <a href="#contact"><b>CONTACT US </b></a>
+        </nav>
+
+        <div id="menu-bars" class="fas fa-bars"></div>
+
+    </header>
+
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hey, It's Me</h3>
+            <h1>Somya Tiwari</h1>
+            <h1>And I'm a <span>Web Developer</span></h1>
+            <p>Lorem ipsumd quidem blanditiis rerum, illo ea consequuntur numquam quisquam quaerat perferendis eos ipsum
+                consectetur magni cumque ab reiciendis iusto earum?</p>
+            <div class="social-media">
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+                <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+                <a href="#"><i class="bx bxl-linkedin"></i></a>
+
+            </div>
+
+            <a href="#" class="btn">More About me</a>
+        </div>
+        <div class="home-img">
+            <img src="somya2.jpg" alt="">
+        </div>
+    </section>
+    <!-- about  -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="somya photo.webp" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet Lorem ipsum dolor si
+                        Quisquam corrupti ratione inventore saepe nihil accusantium consectetur mag
+                        enim corporis iste voluptates quas fuga quam, optio laboriosam! Quo possimu
+                        vitae placeat quibusdam minima est, praesentium tempore? Placeat maiores
+                        quidem nobis quo distinctio. consectetur adipisicing elit. Corrupti nostrum
+                        enim reprehenderit unde laborum minima aspernatur tempora ullam nemo numquam
+                        dolor illo ex eligendi, debitis sed fuga incidunt totam eveniet accusamus,
+                        harum reiciendis facilis sit? Voluptates.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Fronted WebUI?UX</span><br>Designing Web/UI Wireframe</li>
+                            <li><span>Web Developmemt</span><br>Designing Website</li>
+                            <li><span>UI?UX</span><br>Designing UI Wireframe</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current </span><br>UI/UX Design </li>
+                            <li><span>2022-23 December</span><br>Part of Tech Grooming At E-Cell </li>
+                            <li><span>2022</span><br>Persuing B-Tech Course from School Of Information Technology RGPV,
+                                Bhopal (M.P) </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span><br>Completed Higher Education </li>
+                            <li><span>2020</span><br>Completed Secondary Education </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- services  -->
+    <div class="services" id="services">
+
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-browser"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore atque mollitia ratione delectus
+                        soluta culpa quaerat, voluptas repellendus deserunt. Explicabo reprehenderit culpa laborum
+                        molestiae, molestias velit dolor aliquid cumque, eligendi iste odit. Est, suscipit!</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore atque mollitia ratione delectus
+                        soluta culpa quaerat, voluptas repellendus deserunt. Explicabo reprehenderit culpa laborum
+                        molestiae, molestias velit dolor aliquid cumque, eligendi iste odit. Est, suscipit!</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Coding</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore atque mollitia ratione delectus
+                        soluta culpa quaerat, voluptas repellendus deserunt. Explicabo reprehenderit culpa laborum
+                        molestiae, molestias velit dolor aliquid cumque, eligendi iste odit. Est, suscipit!</p>
+                    <a href="#">learn more</a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- portfolio  -->
+    <div class="portfolio" id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="social media.jpg" alt="">
+                    <div class="layer">
+                        <h3>Social Media website</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto enim quam, mollitia
+                            consequatur excepturi est, similique qui in hic sint totam! Ratione, eaque tenetur.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="ui ux.jpg" alt="">
+                    <div class="layer">
+                        <h3>UI/UX Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto enim quam, mollitia
+                            consequatur excepturi est, similique qui in hic sint totam! Ratione, eaque tenetur.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="coding.jpg" alt="">
+                    <div class="layer">
+                        <h3>Coding</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto enim quam, mollitia
+                            consequatur excepturi est, similique qui in hic sint totam! Ratione, eaque tenetur.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+            <a href="#" class="btn1">See more</a>
+        </div>
+    </div>
+
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> <span><b>Contact Me</b></span></h1>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="NAME">
+                <input type="email" placeholder="EMAIL">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="NUMBER">
+                <input type="text" placeholder="BRANCH">
+            </div>
+            <textarea name="" placeholder="YOUR EXPERIENCE" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="send message" class="btn">
+        </form>
+
+    </section>
+    <div class="copy-right">
+        <p>Copyright Somya. Web Developer</p>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
